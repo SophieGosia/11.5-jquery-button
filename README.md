@@ -1,6 +1,6 @@
-11.5 - This, self... pułapki Javascriptu
+11.5 - OOP - This
 
-https://codepen.io/sophie_gosia/pen/
+https://codepen.io/sophie_gosia/pen/JLxobo
 
 How to run this project: 
 
