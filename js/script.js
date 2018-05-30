@@ -1,18 +1,18 @@
 function Button(text) {
-	this.text = text || 'Hello';
+    this.text = text || 'Hello';
 }
 
 Button.prototype = {
-	create: function() {
-    var self = this;
-		this.$element = $('<button>');
-		this.$element.text(this.text);
-		this.$element.click(function() {
-			alert(self.text);
-    });
-    this.$element.appendTo($('.buttons'));
-		this.$element.addClass('button');
-	}
+    create: function () {
+        var self = this;
+        this.$element = $('<button>');
+        this.$element.text(this.text);
+        this.$element.click(function () {
+            alert(self.text);
+        });
+        this.$element.appendTo($('.buttons'));
+        this.$element.addClass('button');
+    }
 };
 
 var btn1 = new Button('Hello!');
